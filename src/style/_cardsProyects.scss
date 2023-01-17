@@ -1,0 +1,11 @@
+@import "./variables";
+
+.cards-poyects {
+  &__links{
+    opacity: .5;
+    transition: .3s linear;
+    &:hover{
+      opacity: 1;
+    }
+  }
+}

@@ -1,0 +1,17 @@
+[
+  {
+    "links": "https://api.whatsapp.com/send/?phone=573118047047&text=Hola%2C+estoy+interesado+en+tu+perfil.&type=phone_number&app_absent=0",
+    "images": "Whatsapp",
+    "description": "Whatsapp"
+  },
+  {
+    "links": "https://www.linkedin.com/in/harold-yulian-sanchez-alcantar-218b45180/",
+    "images": "Linkedin",
+    "description": "Linkedin"
+  },
+  {
+    "links": "https://github.com/Smendoza120",
+    "images": "GitHub",
+    "description": "GitHub"
+  }
+]

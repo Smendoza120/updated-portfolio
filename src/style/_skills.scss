@@ -1,0 +1,21 @@
+@import './variables';
+@import './mixins';
+
+.skills{
+    &__container{
+        background: $Skills;
+    }
+    &__title{
+        @include title
+    }
+    &__info{
+        width: 100%;
+        display: flex;
+        overflow: auto;
+    }
+    @media (min-width: 768px){
+        &__title{
+            text-align: center;
+        }
+    }
+}

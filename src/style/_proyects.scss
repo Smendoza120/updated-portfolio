@@ -1,0 +1,20 @@
+@import "./variables";
+@import "./mixins";
+
+.proyects {
+  &__container {
+    background: $Proyects;
+  }
+  &__title {
+    @include title;
+  }
+  &__cards {
+    display: flex;
+    overflow: auto;
+  }
+  @media(min-width: 768px){
+    &__title{
+      text-align: center;
+    }
+  }
+}

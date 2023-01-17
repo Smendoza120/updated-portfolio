@@ -1,0 +1,109 @@
+@import "./variables";
+@import "./mixins";
+
+.contact {
+  &__container {
+    background: {
+      image: url("../Images/contact-bg.jpg");
+      position: center top;
+      repeat: no-repeat;
+      size: cover;
+    }
+    padding-bottom: 20px;
+  }
+  &__title {
+    @include title;
+  }
+  &__form {
+    margin: 10px 25px 0px 25px;
+
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    gap: 1px;
+  }
+  &__data {
+    width: 100%;
+    gap: 1px;
+
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    opacity: .7;
+  }
+  &__name {
+    width: 50%;
+    padding: 8px;
+    border-radius: 5px 0px 0px 0px;
+    border: none;
+  }
+  &__email {
+    width: 50%;
+    padding: 8px;
+    border-radius: 0px 5px 0px 0px;
+    border: none;
+  }
+  &__subject {
+    width: 100%;
+    border: none;
+    padding: 8px;
+    opacity: .7;
+  }
+  &__text-area{
+    padding: 6px 8px;
+    border: none;
+    border-radius: 0px 0px 3px 3px;
+    width: 100%;
+    height: 100px;
+    max-height: 150px;
+    resize: none;
+    font-family: $Font;
+    opacity: .7;
+  }
+  &__buttons {
+    width: 100%;
+    padding: 10px 20px;
+
+    display: flex;
+    justify-content: flex-end;
+    gap: 5px;
+    &-button {
+      border: none;
+      border-radius: 3px;
+      transition: 0.3s linear;
+      cursor: pointer;
+    }
+    &-button:first-child {
+      @include buttons(15px, $ColorSecundario, $Button);
+      padding: 8px 15px;
+      background: $ColorSecundario;
+      color: $Button;
+      &:hover {
+        background-color: $Button;
+        color: $ColorSecundario;
+        -webkit-box-shadow: -4px 4px 5px 0px $Shadow;
+        -moz-box-shadow: -4px 4px 5px 0px $Shadow;
+        box-shadow: -4px 4px 5px 0px $Shadow;
+      }
+    }
+    &-button:last-child {
+      @include buttons(20px, $Button, $ColorSecundario);
+      
+    }
+  }
+  @media(min-width: 768px){
+    &__container{
+      display: flex;
+      flex-direction: column;
+      align-items: center;
+      justify-content: center;
+    }
+    &__form{
+      width: 45%;
+    }
+    &__buttons{
+      justify-content: center;
+    }
+  }
+}

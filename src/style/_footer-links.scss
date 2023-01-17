@@ -1,0 +1,9 @@
+@import "./variables";
+@import "./mixins";
+
+.links {
+  transition: .3s transform linear;
+  &:hover{
+    transform: scale(1.08);
+  }
+}
