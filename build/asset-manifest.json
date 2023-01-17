@@ -1,0 +1,26 @@
+{
+  "files": {
+    "main.css": "/new-portfolio/build/static/css/main.93fd1493.css",
+    "main.js": "/new-portfolio/build/static/js/main.8876a44a.js",
+    "static/media/fondo-desktop.png": "/new-portfolio/build/static/media/fondo-desktop.b739bf3604620b4f4a69.png",
+    "static/media/profile.png": "/new-portfolio/build/static/media/profile.62770240c4f6b521b2a3.png",
+    "static/media/Harold_vida.pdf": "/new-portfolio/build/static/media/Harold_vida.44149bd1063afd8b5866.pdf",
+    "static/media/Card-corp.png": "/new-portfolio/build/static/media/Card-corp.837d1e9a9fc8395d426c.png",
+    "static/media/fondo-movile.png": "/new-portfolio/build/static/media/fondo-movile.b40bf46cf6299b9c2d7e.png",
+    "static/media/Barberia.png": "/new-portfolio/build/static/media/Barberia.031db58164b0cb0ea2ae.png",
+    "static/media/contact-bg.jpg": "/new-portfolio/build/static/media/contact-bg.58fdb812b49ec121db73.jpg",
+    "static/media/perfil.png": "/new-portfolio/build/static/media/perfil.251356d3fb94f17e3d42.png",
+    "static/media/Cards.png": "/new-portfolio/build/static/media/Cards.8778532610bb93a51b22.png",
+    "static/media/Fylo.png": "/new-portfolio/build/static/media/Fylo.26fd4efb88891941d1e5.png",
+    "static/media/Encriptador.png": "/new-portfolio/build/static/media/Encriptador.824ce6d72dba64c09c37.png",
+    "static/media/blackIcon.svg": "/new-portfolio/build/static/media/blackIcon.66a85fa2e6aa0e2406c7.svg",
+    "static/media/icono.svg": "/new-portfolio/build/static/media/icono.447f4d16e167cbdf0c3b78a483551a02.svg",
+    "index.html": "/new-portfolio/build/index.html",
+    "main.93fd1493.css.map": "/new-portfolio/build/static/css/main.93fd1493.css.map",
+    "main.8876a44a.js.map": "/new-portfolio/build/static/js/main.8876a44a.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.93fd1493.css",
+    "static/js/main.8876a44a.js"
+  ]
+}
