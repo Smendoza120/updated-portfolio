@@ -38,6 +38,14 @@
   }
   &__cv{
     text-decoration: none;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 5px;
+    color: $ColorSecundario;
+    &:hover{
+      color: $ColorPrimario;
+    }
   }
   &__button {
     border: 1px solid $Button;
@@ -69,7 +77,7 @@
   }
   @media (min-width: 768px) {
     &__container {
-      padding: 20px;
+      padding: 30px 15px;
 
       display: flex;
       justify-content: center;
@@ -89,6 +97,12 @@
     &__description {
       width: 55%;
     }
+    
+    &__button {
+      margin-left: 20px;
+    }
+  }
+  @media (min-width: 1024px){
     &__info {
       &-container {
         padding: 10px 0;
@@ -116,12 +130,9 @@
         }
       }
     }
-    &__button {
-      margin-left: 20px;
-    }
   }
 }
 
-.about__button:hover > .about__icon {
+.about__cv:hover > .about__icon {
   content: url("../Images//blackIcon.svg");
 }

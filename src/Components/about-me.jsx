@@ -35,12 +35,15 @@ function AboutMe() {
             </li>
           </ul>
         </div>
+        <button className="about__button">
         <a className="about__cv" href={CV} target="_blank" rel="noreferrer">
-          <button className="about__button">
-            <img className="about__icon" src={icono} alt="Icono CV" />
+        <img className="about__icon" src={icono} alt="Icono CV" />
             Dowload CV
+          </a>
+
+            
           </button>
-        </a>
+        
       </div>
     </section>
   );

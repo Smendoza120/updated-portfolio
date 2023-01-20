@@ -25,13 +25,15 @@ function Profile() {
     <header className="header">
       <div className="header__container">
         <div className="header__logo">
-          <img 
-            src={logo} 
-            alt="Logo" 
-            className="header__logo-1" 
-            onMouseEnter={handleMouseEnter} 
-            onMouseLeave={handleMouseLeave}/>
-          <img src={logo2} alt='Logo2' className={`header__logo-2 ${isShown ? 'active__logo' : ''}`} />
+          <a href="/">
+            <img 
+              src={logo} 
+              alt="Logo" 
+              className="header__logo-1" 
+              onMouseEnter={handleMouseEnter} 
+              onMouseLeave={handleMouseLeave}/>
+            <img src={logo2} alt='Logo2' className={`header__logo-2 ${isShown ? 'active__logo' : ''}`} />
+          </a>
         </div>
         <nav>
           <img src={puntos} alt="Menu desplegable" className='header__puntos' onClick={handleClick} />
@@ -39,7 +41,7 @@ function Profile() {
             <li><a href="#about" className="header__nav-items">About Me</a></li>
             <li><a href="#skills" className="header__nav-items">Skills</a></li>
             <li><a href="#proyects" className="header__nav-items">Proyects</a></li>
-            <li><a href="/" className="header__nav-items">Contact</a></li>
+            <li><a href="#contact" className="header__nav-items">Contact</a></li>
           </ul>
         </nav>
       </div>
