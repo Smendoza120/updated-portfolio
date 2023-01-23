@@ -1,18 +1,34 @@
 import { Formik, Form, Field, ErrorMessage } from "formik";
 import { useState } from "react";
-import emailjs from 'emailjs-com';
 
 function Contact() {
   const [formSend, setFormSend] = useState(false);
+
+  const handleSubmit = (e) => {
+    e.preventDefault();
+    const { name, email, subject, message } = e.target.elements;
+    fetch('https://formsubmit.co/ajax/sanchezharold13@gmail.com', {
+      method: 'POST',
+      headers: {
+        'Content-Type': 'application/json',
+        Accept: 'application/json',
+      },
+      body: JSON.stringify({
+        name: name.value,
+        email: email.value,
+        subject: subject.value,
+        message: message.value
+      }),
+    })
+      .then((response) => response.json())
+      .then((data) => console.log(data))
+      .catch((error) => console.log(error));
+    setFormSend(true);
+    setTimeout(()=>{
+      setFormSend(false)
+    }, 5000)
+  };
   
-  // const sendEmail = (event) => {
-  //   event.preventDefault();
-
-  //   emailjs.sendForm('service_78za5il', 'template_dla641t', event.target, '7DCszwyAVjVc8xSv2')
-  //   .them(response => console.log(response))
-  //   .catch(error => console.log(error))
-  // }
-
   return (
     <section id="contact" className="contact__container">
       <h2 className="contact__title">Contact</h2>
@@ -55,9 +71,8 @@ function Contact() {
         {( {errors} ) => (
           <Form 
             className="contact__form"
-            action="https://formsubmit.co/sanchezharold13@gmail.com"
-            method="POST"
-            target="_blank">
+            onSubmit={handleSubmit}
+            >
             <div className="contact__name">
               <label className="contact__label" htmlFor="name">
                 Name

@@ -1,22 +1,23 @@
 import SkillsDescription from "./cardsSkills";
+import dataSkills from '../Json/skills.json'
 
 function Skills (){
     return (
       <section id="skills" className="skills__container">
-        <h2 className="skills__title">Skills</h2>
+        <h2 className="skills__title">Habilidades</h2>
         <div className="skills__info">
-          <SkillsDescription 
-            title={'HTML'}
-            description='Lorem ipsum dolor sit, amet consectetur adipisicing elit. Possimus vero aspernatur dignissimos veritatis quibusdam! Laudantium, distinctio aliquam voluptatum assumenda, amet vel incidunt repudiandae rem aliquid provident velit non excepturi nobis!'/>
-            <SkillsDescription 
-            title={'CSS'}
-            description='Lorem ipsum dolor sit, amet consectetur adipisicing elit. Possimus vero aspernatur dignissimos veritatis quibusdam! Laudantium, distinctio aliquam voluptatum assumenda, amet vel incidunt repudiandae rem aliquid provident velit non excepturi nobis!'/>
-            <SkillsDescription 
-            title={'JavaScript'}
-            description='Lorem ipsum dolor sit, amet consectetur adipisicing elit. Possimus vero aspernatur dignissimos veritatis quibusdam! Laudantium, distinctio aliquam voluptatum assumenda, amet vel incidunt repudiandae rem aliquid provident velit non excepturi nobis!'/>
-            <SkillsDescription 
-            title={'React'}
-            description='Lorem ipsum dolor sit, amet consectetur adipisicing elit. Possimus vero aspernatur dignissimos veritatis quibusdam! Laudantium, distinctio aliquam voluptatum assumenda, amet vel incidunt repudiandae rem aliquid provident velit non excepturi nobis!'/>
+          {
+            dataSkills.map(skills =>
+              <SkillsDescription
+                title={skills.tecnology}
+                first={skills.first}
+                second={skills.second}
+                third={skills.third}
+                fourth={skills.fourth}
+                fifth={skills.fifth}
+              />
+            )
+          } 
         </div>
       </section>
     )

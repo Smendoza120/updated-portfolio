@@ -38,10 +38,10 @@ function Profile() {
         <nav>
           <img src={puntos} alt="Menu desplegable" className='header__puntos' onClick={handleClick} />
           <ul className={`header__nav ${clicked ? 'active' : ''}`} id="header__nav">
-            <li><a href="#about" className="header__nav-items">About Me</a></li>
-            <li><a href="#skills" className="header__nav-items">Skills</a></li>
-            <li><a href="#proyects" className="header__nav-items">Proyects</a></li>
-            <li><a href="#contact" className="header__nav-items">Contact</a></li>
+            <li><a href="#about" className="header__nav-items">Acerca de</a></li>
+            <li><a href="#skills" className="header__nav-items">Habilidades</a></li>
+            <li><a href="#proyects" className="header__nav-items">Proyectos</a></li>
+            <li><a href="#contact" className="header__nav-items">Contacto</a></li>
           </ul>
         </nav>
       </div>

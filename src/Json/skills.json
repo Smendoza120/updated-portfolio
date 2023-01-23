@@ -1,0 +1,34 @@
+[
+  {
+    "tecnology": "HTML",
+    "first": "Estructuración de una página web.",
+    "second": "Uso correcto de las etiquetas para el respectivo posicionamiento.",
+    "third": "Uso de la metodología BEM.",
+    "fourth": "Vinculación de archivos externos.",
+    "fifth": "Abreviación de escritura con emmet."
+  },
+  {
+    "tecnology": "CSS",
+    "first": "Usar selectores para seleccionar elementos HTML.",
+    "second": "Utilizar valores de medida para especificar el tamaño de un elemento.",
+    "third": "Utilizar modelo de caja para controlar el tamaño y la posición de un elemento.",
+    "fourth": "Usar flexbox y grid.",
+    "fifth": "Usar preprocesadores (SASS)."
+  },
+  {
+    "tecnology": "JavaScript",
+    "first": "Uso de funciones para organizar y reutilizar código.",
+    "second": "Utilizar el DOM para acceder y modificar elementos HTML.",
+    "third": "Manejo de variables para almacenar y manipular datos.",
+    "fourth": "Utilizar operadores y expresiones para realizar operaciones matemáticas y lógicas.",
+    "fifth": "Emplear estructuras de control de flujo como if-else, for, while, do-while."
+  },
+  {
+    "tecnology": "React",
+    "first": "Usar JSX para escribir componentes de React de forma similar a como se escriben elementos HTML.",
+    "second": "Utilizar componentes para descomponer una aplicación en partes reutilizables.",
+    "third": "Uso de eventos para manejar interacciones del usuario en componentes.",
+    "fourth": "Utilizar Create React App, para facilitar el desarrollo y el despliegue de aplicaciones React.",
+    "fifth": "Utilizar el estado y las props para controlar el comportamiento y la presentación de componentes."
+  }
+]

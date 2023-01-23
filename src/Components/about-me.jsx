@@ -1,19 +1,25 @@
 import "../style/general.scss";
 import icono from "../Images/icono.svg";
 import picture from "../Images/profile.png";
-import CV from '../Documents/Harold_vida.pdf';
+import CV from "../Documents/Harold_vida.pdf";
 
 function AboutMe() {
   return (
     <section id="about" className="about__container">
       <img className="about__picture" src={picture} alt="Profile" />
       <div className="about__description">
-        <h2 className="about__title">About Me</h2>
+        <h2 className="about__title">Acerca de</h2>
         <p className="about__text">
-          Lorem ipsum dolor sit amet consectetur adipisicing elit. Neque,
-          laborum. Soluta temporibus dignissimos, quis quisquam optio deleniti
-          cumque asperiores inventore accusamus, sit delectus eligendi aliquam
-          maiores quasi, repellat illum cupiditate.
+          Mi nombre es Harold Sanchez tengo 24 años y en los últimos 9 meses me
+          he convertido en una persona autónoma y constante, teniendo un total
+          de 8 cursos certificados en los cuales me forme como desarrollador
+          front-end, participe en el ministerio de las TIC y actualmente me
+          encuentro en un curso de desarrollo web con Oracle.
+        </p>
+        <p className="about__text">
+          Me especializo en la maquetación web, desarrollo responsive y el uso
+          correcto de las google dev tools, actualmente sigo trabajando en mi
+          crecimiento profesional, personal e intelectual.
         </p>
 
         <div className="about__info">
@@ -36,14 +42,11 @@ function AboutMe() {
           </ul>
         </div>
         <button className="about__button">
-        <a className="about__cv" href={CV} target="_blank" rel="noreferrer">
-        <img className="about__icon" src={icono} alt="Icono CV" />
+          <a className="about__cv" href={CV} target="_blank" rel="noreferrer">
+            <img className="about__icon" src={icono} alt="Icono CV" />
             Dowload CV
           </a>
-
-            
-          </button>
-        
+        </button>
       </div>
     </section>
   );
