@@ -1,26 +1,27 @@
 {
   "files": {
-    "main.css": "/updated-portfolio/static/css/main.aa83fcb6.css",
-    "main.js": "/updated-portfolio/static/js/main.55a852ba.js",
+    "main.css": "/updated-portfolio/static/css/main.18d24968.css",
+    "main.js": "/updated-portfolio/static/js/main.acb6acae.js",
     "static/media/fondo-desktop.png": "/updated-portfolio/static/media/fondo-desktop.b739bf3604620b4f4a69.png",
     "static/media/profile.png": "/updated-portfolio/static/media/profile.62770240c4f6b521b2a3.png",
     "static/media/Harold_vida.pdf": "/updated-portfolio/static/media/Harold_vida.44149bd1063afd8b5866.pdf",
     "static/media/contact-bg.jpg": "/updated-portfolio/static/media/contact-bg.b7aef075e71b9c83f41d.jpg",
     "static/media/Card-corp.png": "/updated-portfolio/static/media/Card-corp.837d1e9a9fc8395d426c.png",
     "static/media/fondo-movile.png": "/updated-portfolio/static/media/fondo-movile.b40bf46cf6299b9c2d7e.png",
+    "static/media/portfolio.png": "/updated-portfolio/static/media/portfolio.a59a7a0e1a94e7588aff.png",
     "static/media/Barberia.png": "/updated-portfolio/static/media/Barberia.031db58164b0cb0ea2ae.png",
     "static/media/perfil.png": "/updated-portfolio/static/media/perfil.251356d3fb94f17e3d42.png",
     "static/media/Cards.png": "/updated-portfolio/static/media/Cards.8778532610bb93a51b22.png",
     "static/media/Fylo.png": "/updated-portfolio/static/media/Fylo.26fd4efb88891941d1e5.png",
     "static/media/Encriptador.png": "/updated-portfolio/static/media/Encriptador.824ce6d72dba64c09c37.png",
-    "static/media/blackIcon.svg": "/updated-portfolio/static/media/blackIcon.66a85fa2e6aa0e2406c7.svg",
-    "static/media/icono.svg": "/updated-portfolio/static/media/icono.447f4d16e167cbdf0c3b78a483551a02.svg",
+    "static/media/blackIcon.svg": "/updated-portfolio/static/media/blackIcon.e7c7c66ae2ec949c6c6e.svg",
+    "static/media/icono.svg": "/updated-portfolio/static/media/icono.00b9c395456697935938f0e7e2669856.svg",
     "index.html": "/updated-portfolio/index.html",
-    "main.aa83fcb6.css.map": "/updated-portfolio/static/css/main.aa83fcb6.css.map",
-    "main.55a852ba.js.map": "/updated-portfolio/static/js/main.55a852ba.js.map"
+    "main.18d24968.css.map": "/updated-portfolio/static/css/main.18d24968.css.map",
+    "main.acb6acae.js.map": "/updated-portfolio/static/js/main.acb6acae.js.map"
   },
   "entrypoints": [
-    "static/css/main.aa83fcb6.css",
-    "static/js/main.55a852ba.js"
+    "static/css/main.18d24968.css",
+    "static/js/main.acb6acae.js"
   ]
 }
