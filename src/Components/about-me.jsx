@@ -12,7 +12,7 @@ function AboutMe() {
         <p className="about__text">
           Mi nombre es Harold Sanchez tengo 24 años y en los últimos 9 meses me
           he convertido en una persona autónoma y constante, teniendo un total
-          de 8 cursos certificados en los cuales me forme como desarrollador
+          de 16 cursos certificados en los cuales me forme como desarrollador
           front-end, participe en el ministerio de las TIC y actualmente me
           encuentro en un curso de desarrollo web con Oracle.
         </p>
