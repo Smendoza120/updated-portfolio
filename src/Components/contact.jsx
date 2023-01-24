@@ -31,7 +31,7 @@ function Contact() {
   
   return (
     <section id="contact" className="contact__container">
-      <h2 className="contact__title">Contact</h2>
+      <h2 className="contact__title">Contacto</h2>
 
       <Formik
         initialValues={{
@@ -75,14 +75,14 @@ function Contact() {
             >
             <div className="contact__name">
               <label className="contact__label" htmlFor="name">
-                Name
+                Nombre
               </label>
               <Field
                 className="contact__input"
                 id="name"
                 name="name"
                 type="text"
-                placeholder="Name"
+                placeholder="Nombre"
               />
               <ErrorMessage name="name" component={()=>(
                 <div className="contact__error">{errors.name}</div>
@@ -107,27 +107,27 @@ function Contact() {
 
             <div className="contact__subject">
               <label className="contact__label" htmlFor="subject">
-                Subject
+                Asunto
               </label>
               <Field
                 className="contact__input"
                 id="subject"
                 name="subject"
                 type="text"
-                placeholder="Subject"
+                placeholder="Asunto"
               />
             </div>
 
             <div className="contact__message">
               <label className="contact__label" htmlFor="message">
-                Message
+                Mensaje
               </label>
               <Field
                 as='textarea'
                 className="contact__text-area"
                 id="message"
                 name="message"
-                placeholder="Message"
+                placeholder="Mensaje"
               ></Field>
               <ErrorMessage name="message" component={()=>(
                 <div className="contact__error">{errors.message}</div>
