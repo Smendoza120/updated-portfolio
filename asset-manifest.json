@@ -1,10 +1,10 @@
 {
   "files": {
-    "main.css": "/updated-portfolio/static/css/main.18d24968.css",
-    "main.js": "/updated-portfolio/static/js/main.acb6acae.js",
+    "main.css": "/updated-portfolio/static/css/main.d1ee6adf.css",
+    "main.js": "/updated-portfolio/static/js/main.a8d35801.js",
     "static/media/fondo-desktop.png": "/updated-portfolio/static/media/fondo-desktop.b739bf3604620b4f4a69.png",
     "static/media/profile.png": "/updated-portfolio/static/media/profile.62770240c4f6b521b2a3.png",
-    "static/media/Harold_vida.pdf": "/updated-portfolio/static/media/Harold_vida.44149bd1063afd8b5866.pdf",
+    "static/media/Harold_vida.pdf": "/updated-portfolio/static/media/Harold_vida.69b598fe849f5c7767ff.pdf",
     "static/media/contact-bg.jpg": "/updated-portfolio/static/media/contact-bg.b7aef075e71b9c83f41d.jpg",
     "static/media/Card-corp.png": "/updated-portfolio/static/media/Card-corp.837d1e9a9fc8395d426c.png",
     "static/media/fondo-movile.png": "/updated-portfolio/static/media/fondo-movile.b40bf46cf6299b9c2d7e.png",
@@ -17,11 +17,11 @@
     "static/media/blackIcon.svg": "/updated-portfolio/static/media/blackIcon.e7c7c66ae2ec949c6c6e.svg",
     "static/media/icono.svg": "/updated-portfolio/static/media/icono.00b9c395456697935938f0e7e2669856.svg",
     "index.html": "/updated-portfolio/index.html",
-    "main.18d24968.css.map": "/updated-portfolio/static/css/main.18d24968.css.map",
-    "main.acb6acae.js.map": "/updated-portfolio/static/js/main.acb6acae.js.map"
+    "main.d1ee6adf.css.map": "/updated-portfolio/static/css/main.d1ee6adf.css.map",
+    "main.a8d35801.js.map": "/updated-portfolio/static/js/main.a8d35801.js.map"
   },
   "entrypoints": [
-    "static/css/main.18d24968.css",
-    "static/js/main.acb6acae.js"
+    "static/css/main.d1ee6adf.css",
+    "static/js/main.a8d35801.js"
   ]
 }
