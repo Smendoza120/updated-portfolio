@@ -1,7 +1,7 @@
 {
   "files": {
     "main.css": "/updated-portfolio/static/css/main.d1ee6adf.css",
-    "main.js": "/updated-portfolio/static/js/main.a8d35801.js",
+    "main.js": "/updated-portfolio/static/js/main.8b587e15.js",
     "static/media/fondo-desktop.png": "/updated-portfolio/static/media/fondo-desktop.b739bf3604620b4f4a69.png",
     "static/media/profile.png": "/updated-portfolio/static/media/profile.62770240c4f6b521b2a3.png",
     "static/media/Harold_vida.pdf": "/updated-portfolio/static/media/Harold_vida.69b598fe849f5c7767ff.pdf",
@@ -18,10 +18,10 @@
     "static/media/icono.svg": "/updated-portfolio/static/media/icono.00b9c395456697935938f0e7e2669856.svg",
     "index.html": "/updated-portfolio/index.html",
     "main.d1ee6adf.css.map": "/updated-portfolio/static/css/main.d1ee6adf.css.map",
-    "main.a8d35801.js.map": "/updated-portfolio/static/js/main.a8d35801.js.map"
+    "main.8b587e15.js.map": "/updated-portfolio/static/js/main.8b587e15.js.map"
   },
   "entrypoints": [
     "static/css/main.d1ee6adf.css",
-    "static/js/main.a8d35801.js"
+    "static/js/main.8b587e15.js"
   ]
 }
