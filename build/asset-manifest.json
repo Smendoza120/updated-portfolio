@@ -1,7 +1,7 @@
 {
   "files": {
     "main.css": "/updated-portfolio/static/css/main.d1ee6adf.css",
-    "main.js": "/updated-portfolio/static/js/main.8b587e15.js",
+    "main.js": "/updated-portfolio/static/js/main.6fa69bb6.js",
     "static/media/fondo-desktop.png": "/updated-portfolio/static/media/fondo-desktop.b739bf3604620b4f4a69.png",
     "static/media/profile.png": "/updated-portfolio/static/media/profile.62770240c4f6b521b2a3.png",
     "static/media/Harold_vida.pdf": "/updated-portfolio/static/media/Harold_vida.69b598fe849f5c7767ff.pdf",
@@ -9,6 +9,7 @@
     "static/media/Card-corp.png": "/updated-portfolio/static/media/Card-corp.837d1e9a9fc8395d426c.png",
     "static/media/fondo-movile.png": "/updated-portfolio/static/media/fondo-movile.b40bf46cf6299b9c2d7e.png",
     "static/media/portfolio.png": "/updated-portfolio/static/media/portfolio.a59a7a0e1a94e7588aff.png",
+    "static/media/portfolio-lesly.png": "/updated-portfolio/static/media/portfolio-lesly.e26b3765ce3f0316aaad.png",
     "static/media/Barberia.png": "/updated-portfolio/static/media/Barberia.031db58164b0cb0ea2ae.png",
     "static/media/perfil.png": "/updated-portfolio/static/media/perfil.251356d3fb94f17e3d42.png",
     "static/media/Cards.png": "/updated-portfolio/static/media/Cards.8778532610bb93a51b22.png",
@@ -18,10 +19,10 @@
     "static/media/icono.svg": "/updated-portfolio/static/media/icono.00b9c395456697935938f0e7e2669856.svg",
     "index.html": "/updated-portfolio/index.html",
     "main.d1ee6adf.css.map": "/updated-portfolio/static/css/main.d1ee6adf.css.map",
-    "main.8b587e15.js.map": "/updated-portfolio/static/js/main.8b587e15.js.map"
+    "main.6fa69bb6.js.map": "/updated-portfolio/static/js/main.6fa69bb6.js.map"
   },
   "entrypoints": [
     "static/css/main.d1ee6adf.css",
-    "static/js/main.8b587e15.js"
+    "static/js/main.6fa69bb6.js"
   ]
 }
